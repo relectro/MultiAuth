@@ -20,8 +20,8 @@ import base64
 import hashlib
 
 # XXX: Should be easily configurable
-default_api_id = 11371
-default_api_key = 'BtRJWGHal1QFtGBuoz8Ey+Ntrr4='
+default_api_id = 
+default_api_key = ''
 
 class YubikeyError(Exception):
     pass
