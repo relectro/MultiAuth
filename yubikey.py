@@ -153,6 +153,3 @@ Usage: %s api_id [api_key] otp
         sys.exit(not(verify_paranoid(sys.argv[-1], sys.argv[1], api_key=sys.argv[2])))
     else:
         print >>sys.stderr, usage
-verify_paranoid(
-
-)
